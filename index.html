@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>优品惠首页</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<!-- <script src= "js/jquery-3.0.0.js"></script> -->
+	<script src= "js/jquery.js"></script>
+	<script src= "js/jquery.cookie.js"></script>
+	<script src= "js/index.js"></script>
+</head>
+<body>
+	<!-- 透明弹窗 -->
+
+<!-- ******************************************************************************************** -->
+	<script>
+		$(document).ready(function(){
+			$("#menu").load("common_head.html");
+		})
+	</script>
+	<div id="menu">
+	</div>
+<!-- ********************************************************************************** -->
+<!-- **********************************topad************************************* -->
+<!-- **********************************top-nav************************************* -->
+<!-- ******************************header_logo***************************************** -->
+	<div id="header_logo">
+		<div class="container">
+			<div class="logo">
+				<h1><a href="index.html"><img src="pictures/logo.png" alt="优品惠"></a></h1>
+				<p>-更高品质的视频购物-</p>
+			</div>
+			<div class="search">
+				<form class="form-search" action="" >
+					<span id="clear_1">×</span>
+					<input id="search_text" class="search-text" type="text" value="寻找的商品">
+					<input class="search-btn" type="button" value="搜索">
+				</form>
+			</div>
+			<div class="samllad">
+				
+			</div>
+			<div class="mycart ">
+				<div class="cart_box">
+					<div cart-inf>
+						<p class="none_cart">购物车还没有商品，快去挑选吧~</p>
+					</div>	
+				</div>
+				<div class="cart-bag">
+					<div class="cart-list">
+						<i class="icar"></i>
+						<a href="shopcart.html">我的购物车</a>
+						<i class="ijt"></i>
+						<span class="cartnum" id="cart_num">0</span>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- *********************************main-nav***************************************** -->
+<!-- *************************************banner************************************* -->
+	<div class="banner">
+		<div class="container">
+			<div class="scroll-num">
+				<span class="on"></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="scroll">
+				<ul id="ban_lun">
+					<li>
+						<a href="javascrpt:;">					
+								<img src="pictures/banner-1.jpg" alt="">							
+						</a>
+					</li>
+					<li>
+						<a href="javascrpt:;">							
+								<img src="pictures/banner-2.jpg" alt="">						
+						</a>
+					</li>
+					<li>
+						<a href="javascrpt:;">						
+								<img src="pictures/banner-3.jpg" alt="">							
+						</a>
+					</li>
+					<li>
+						<a href="javascrpt:;">						
+								<img src="pictures/banner-1.jpg" alt="">						
+						</a>
+					</li>
+				</ul>
+			</div>			
+		</div>
+	</div>
+<!-- *************************************new-select****************************** -->
+	<div class="new-select">
+		<div class="container">
+			<div class="select-left">
+				<i class="tit_lg"></i>
+				<div class="left-choice-imgs">
+					<span class="prev"></span>
+					<span class="next"></span>
+					<!-- 左侧轮播图 -->
+					<ul>				
+					</ul>
+				</div>
+				<div class="left-choice-list">
+					<ul >					
+					</ul>
+				</div>
+			</div>
+			<div class="select-right">
+				<div class="tv_title">
+					<img src="pictures/tv_ugo.jpg" alt="优购物" title="优购物">
+				</div>
+				<div class="tv_one">
+					<!-- TV单独产品信息 -->
+					<dl>				
+					</dl>
+				</div>
+				<div class="tv_show">
+					<p>
+						<i>24小时</i>直播预告
+					</p>
+					<span class="prev_1"></span>
+					<span class="next_1"></span>
+					<div class="small_chioc">
+						<!-- 右侧小轮播图 -->
+						<ul>						
+						</ul>
+					</div>
+				</div>
+				<div class="tv_list">
+					<ul>
+						<li>
+							<a href="javascript:;">
+								<span class="tv_zhibo"></span>
+								<p>tv直播表</p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<span  class="tuijian"></span>
+								<p>今日推荐</p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<span class="rexiao"></span>
+								<p>热销榜单</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- *************************************colunm_tit****************************************** -->
+	<div class="colunm_tit">
+		<div class="tit">			
+		</div>
+		<h2 title="品类精选促销">
+			<img src="pictures/well_chosen.jpg" alt="">
+		</h2>
+	</div>
+<!-- *************************************home-four****************************************** -->
+	<div class="home-four">
+		<div class="container">
+			<ul>
+			</ul>
+		</div>
+	</div>
+<!-- *************************************colunm_tit****************************************** -->
+	<div class="colunm_tit">
+		<div class="tit">		
+		</div>
+		<h2 title="品类精选促销">
+			<img src="pictures/golbal_goods.jpg" alt="">
+		</h2>
+	</div>
+<!-- *************************************home-five****************************************** -->
+	<div class="home-five">
+		<div class="container">
+			<ul>			
+			</ul>
+		</div>
+	</div>
+
+<!-- *************************************footer****************************************** -->
+	<script>
+		$(function(){
+			$("#foot").load("common_footer.html");
+		});
+	</script>
+	<div id="foot">
+	</div>
+<!-- ***************************************************************************************************** -->
+</body>
+</html>

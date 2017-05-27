@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html style="position:relative;" lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>优品惠首页</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<link rel="stylesheet" type="text/css" href="css/index.css" />
+	<!-- <script src= "js/jquery-3.0.0.js"></script> -->
+	<script src= "js/jquery.js"></script>
+	<script src= "js/jquery.cookie.js"></script>
+	<script src= "js/index.js"></script>
+
+	<style></style>
+</head>
+<body>
+	<!-- 透明弹窗 -->
+<div id="tanchuang">
+	<div class="tanchuang_img">
+		<a href="javascript:;">
+			<img id="logn" src="images/logn3.png">
+		</a>
+	</div>
+	<div class="tanchaung_off" >
+	</div>
+</div>
+
+<!-- ******************************************************************************************** -->
+	<script>
+		$(document).ready(function(){
+			$("#menu").load("common_head.html");
+		})
+
+		// $(function(){
+		// 	$("#menu").load("common_head.html");
+		// });
+	</script>
+	<div id="menu">
+	</div>
+<!-- ********************************************************************************** -->
+<!-- 	<div class="sidebar-out"></div>
+	<div  class="sidebar">
+		<ul class="bar-top">
+			<li><a href="javascript:;" tooltips="" class="login"></a></li>
+			<li><a href="javascript:;" tooltips="购物车" class="shopcart1"></a></li>
+			<li><a href="javascript:;" tooltips="我的关注" class="guanzhu"></a></li>
+			<li><a href="javascript:;" tooltips="在线客服" class="serve"></a></li>
+		</ul>
+		<ul class="bar-bot">
+			<li><a href="javascript:;" tooltips="" class="weixin">1</a></li>
+			<li><a href="javascript:;" tooltips="调查问卷" class="suggest">2</a></li>
+			<li><a href="javascript:;" tooltips="返回顶部" class="top">3</a></li>
+		</ul>
+	</div> -->
+<!-- **********************************topad************************************* -->
+<!-- 	<div class="topad">
+			<div class="container">
+				<a class="topad-bg" href="javascript:;"></a>
+			</div>
+		</div> -->
+<!-- **********************************top-nav************************************* -->
+<!-- 	<div class="top-nav">
+		<div class="container">
+			<div class="notice_scroll">
+				<span>公告：</span>
+				<ul>
+					<li><a href="javascript:;">盛大五周年</a></li>
+					<li><a href="javascript:;">盛大五周年</a></li>
+					<li><a href="javascript:;">盛大五周年</a></li>
+					<li><a href="javascript:;">盛大五周年</a></li>
+				</ul>
+			</div>
+			<div class="top-nav-list ">
+				<a href="javascript:;">注册</a>
+				<span>|</span>
+				<a href="javascript:;">登录</a>
+				<span>|</span>
+				<a href="javascript:;">我的订单</a>
+				<span>|</span>
+				<a href="javascript:;">物流查询</a>
+				<span>|</span>
+				<a href="javascript:;">我的关注</a>
+				<span>|</span>
+				<a href="javascript:;">资讯</a>
+				<span>|<v/span>
+				<a href="javascript:;">品牌馆</a>
+				<span>|</span>
+				<a href="javascript:;" class="last-a">手机优品惠</a>
+				
+				
+			</div>
+		</div>
+		</div> -->
+<!-- ******************************header_logo***************************************** -->
+	<!-- <div class="header_logo">
+		<div class="container">
+			<div class="logo">
+				<h1><a href="javascript:;"><img src="pictures/logo.png" alt=""></a></h1>
+				<p>-更高品质的视频购物-</p>
+			</div>
+			<div class="search">
+				<form class="form-search" action="" >
+					<input class="search-text" type="text" value="寻找的商品">
+					<input class="search-btn" type="button" value="搜索">
+				</form>
+			</div>
+			<div class="samllad">
+				
+			</div>
+			<div class="mycart">
+				<div class="cart-bag">
+					<div class="cart-list">
+						<i class="icar"></i>
+						<a href="javascript:;">我的购物车</a>
+						<i class="ijt"></i>
+						<span class="cartnum" id="cart_num">0</span>
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</div> -->
+<!-- *********************************main-nav***************************************** -->
+	<!-- <div class="main-nav">
+		<div class="container">
+			<ul class="nav-list">
+				<li class="nav-first"><a  href="javascript:;">首页</a></li>
+				<li><a class="nav-second" href="javascript:;">视频</a></li>
+				<li><a href="javascript:;">食品</a></li>
+				<li><a href="javascript:;">家居</a></li>
+				<li><a href="javascript:;">美妆</a></li>
+				<li><a href="javascript:;">服饰</a></li>
+				<li><a href="javascript:;">海外购</a></li>
+			</ul>
+			<div class="all-list">
+				
+			</div>
+		</div>
+
+	</div> -->
+<!-- *************************************banner************************************* -->
+	<div class="banner">
+		<div class="container">
+			<div class="scroll-num">
+				<span class="on"></span>
+				<span></span>
+				<span></span>
+			</div>
+			<div class="scroll">
+				<ul id="ban_lun">
+					<li>
+						<a href="javascrpt:;">
+							
+								<img src="pictures/banner-1.jpg" alt="">
+							
+						</a>
+					</li>
+					<li>
+						<a href="javascrpt:;">
+							
+								<img src="pictures/banner-2.jpg" alt="">
+							
+						</a>
+					</li>
+					<li>
+						<a href="javascrpt:;">
+							
+								<img src="pictures/banner-3.jpg" alt="">
+							
+						</a>
+					</li>
+					<li>
+						<a href="javascrpt:;">
+							
+								<img src="pictures/banner-1.jpg" alt="">
+							
+						</a>
+					</li>
+				</ul>
+			</div>			
+		</div>
+	</div>
+<!-- *************************************new-select****************************** -->
+	<div class="new-select">
+		<div class="container">
+			<div class="select-left">
+				<i class="tit_lg"></i>
+				<div class="left-choice-imgs">
+					<span class="prev"></span>
+					<span class="next"></span>
+					<!-- 左侧轮播图 -->
+					<ul>
+					<!-- <li>
+							<a href="javascript:;">
+								<div class="img_box">
+									<img src="pictures/new_leftlun/left_lun_1.jpg" alt="优品惠">
+								</div>
+								<div class="text_box">
+									<p class="tp"></p>
+									<h2>y印度喜马拉雅美肌皂18颗（单价17元）</h2>
+									<p class="txt">
+										【买手说】天然不刺激，在清洁【买手说】天然不刺激，在清洁【买手说】天然不刺激，在清洁【买手说】天然不刺激，在清洁【买手说】天然不刺激，在清洁【买手说】天然不刺激，在清洁
+									</p>
+									<div class="good-yen">
+										<span class="new_price">
+											<i>&yen;</i>199
+										</span>
+										<span class="old_price">
+											<p>
+												<em class="baoyou">包邮</em>
+												<em class="zhijiang">直降</em>
+											</p>
+											<i>&yen;</i>579
+										</span>								
+									</div>									
+								</div>
+							</a>
+						</li> -->						
+					</ul>
+				</div>
+				<div class="left-choice-list">
+						<ul >
+							<!-- <li>
+								<i class="on"></i>
+								<a href="javascript:;">
+									<img src="" alt="">
+								</a>
+							</li> -->
+						</ul>
+				</div>
+			</div>
+			<div class="select-right">
+				<div class="tv_title">
+					<img src="pictures/tv_ugo.jpg" alt="优购物" title="优购物">
+				</div>
+				<div class="tv_one">
+					<!-- TV单独产品信息 -->
+					<dl>
+					<!--<a href="javascript:;">
+							<dt>
+								<i></i>
+								<img src="pictures/new_right_dt_img/right_dt_img.jpg" alt="">
+							</dt>
+							<dd>
+								<h2>
+									帕格尼塞纳河畔真皮软床1.5米
+								</h2>
+								<div class="li-yen">
+									<span class="img-price">
+										<i>&yen;</i>5799
+									</span>
+									<span class="old-price">
+										<i>&yen;</i>20397
+									</span>								
+								</div>
+								<div class="tv_timer">
+										
+								</div>
+								<p class="tv_btn">立即抢购&ensp;&gt;</p>	
+							</dd>
+						</a> -->
+					</dl>
+				</div>
+				<div class="tv_show">
+					<p>
+						<i>24小时</i>直播预告
+					</p>
+					<span class="prev_1"></span>
+					<span class="next_1"></span>
+					<div class="small_chioc">
+						<!-- 右侧小轮播图 -->
+						<ul>
+							<!-- <li>
+								<a href="javascript:;">
+									<i>22:00</i>
+									<img src="pictures/xiaolunbo/xiaolun_1.jpg" alt="">
+								</a>
+								<a href="javascript:;">
+									<i>23:00</i>
+									<img src="pictures/xiaolunbo/xiaolun_2.jpg" alt="">
+								</a>
+								<a href="javascript:;">
+									<i>00:00</i>
+									<img src="pictures/xiaolunbo/xiaolun_3.jpg" alt="">
+								</a>
+							</li> -->
+						</ul>
+					</div>
+				</div>
+				<div class="tv_list">
+					<ul>
+						<li>
+							<a href="javascript:;">
+								<span class="tv_zhibo"></span>
+								<p>tv直播表</p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<span  class="tuijian"></span>
+								<p>今日推荐</p>
+							</a>
+						</li>
+						<li>
+							<a href="javascript:;">
+								<span class="rexiao"></span>
+								<p>热销榜单</p>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- *************************************colunm_tit****************************************** -->
+	<div class="colunm_tit">
+		<div class="tit">			
+		</div>
+		<h2 title="品类精选促销">
+			<img src="pictures/well_chosen.jpg" alt="">
+		</h2>
+	</div>
+<!-- *************************************home-four****************************************** -->
+	<div class="home-four">
+		<div class="container">
+				<ul>
+					<!-- <li>
+						<a href="javascript:;">
+							<img src="pictures/home-four/home_four[1].jpg" alt="">
+						</a>
+					</li> -->
+				</ul>
+		</div>
+	</div>
+
+<!-- *************************************colunm_tit****************************************** -->
+	<div class="colunm_tit">
+		<div class="tit">		
+		</div>
+		<h2 title="品类精选促销">
+			<img src="pictures/golbal_goods.jpg" alt="">
+		</h2>
+	</div>
+
+<!-- *************************************home-five****************************************** -->
+	<div class="home-five">
+		<div class="container">
+			<ul>
+				<!-- <li>
+					<div class="li-box">
+						<a href="javascript:;">
+							<div class="img-box">
+								<i class="tv-icon"></i>
+								<img src="pictures/home-five/home-five-1.jpg" alt="">
+								<span></span>
+							</div>							
+							<h2>
+								<em>[一叶子]黑松露眼膜4盒专供组装</em>
+							</h2>
+							<p>【买手说】眼睛能看出女人的年龄，保护眼睛是女人</p>
+							<div class="li-yen">
+								<span class="img-price">
+									<i>&yen;</i>199
+								</span>
+								<span class="old-price">
+									<p>
+										<em class="baoyou">包邮</em>
+										<em class="zhijiang">直降</em>
+									</p>
+
+									<i>&yen;</i>579
+								</span>								
+								<span class="purchased">
+									<i>777人</i>已购买
+								</span>
+							</div>		
+						</a>
+					</div>
+					<div class="con-box">
+						<p>品牌，国内发货</p>
+						<span></span>
+					</div>
+				</li> -->
+			</ul>
+		</div>
+	</div>
+
+<!-- *************************************footer****************************************** -->
+	<script>
+		$(function(){
+			$("#foot").load("common_footer.html");
+		});
+	</script>
+	<div id="foot">
+	</div>
+<!-- *************************************footer****************************************** -->
+	<!-- <div class="footer">
+		<div class="container">
+			<div class="footer_top">
+				<dl>
+					<dt>新手上路</dt>
+					<dd><a href="javascript:;">新用户注册</a></dd>
+					<dd><a href="javascript:;">忘记密码</a></dd>
+					<dd><a href="javascript:;">购物流程</a></dd>
+				</dl>
+				<dl>
+					<dt>支付配送</dt>
+					<dd><a href="javascript:;">货到付款</a></dd>
+					<dd><a href="javascript:;">支付宝</a></dd>
+					<dd><a href="javascript:;">配送方式</a></dd>
+				</dl>
+				<dl>
+					<dt>会员服务</dt>
+					<dd><a href="javascript:;">服务承诺</a></dd>
+					<dd><a href="javascript:;">会员制度</a></dd>
+					<dd><a href="javascript:;">积分介绍</a></dd>
+					<dd><a href="javascript:;">退换货原则</a></dd>
+				</dl>
+				<dl class="last">
+					<dt >关于优品惠</dt>
+					<dd><a href="javascript:;">企业介绍</a></dd>
+					<dd><a href="javascript:;">联系我们</a></dd>
+					<dd><a href="javascript:;">招商专区</a></dd>
+				</dl>
+
+				<div class="last-list">
+					<div class="l">
+						<img src="pictures/foot_ewm.jpg" alt="">
+						<p>手机优品惠</p>
+						<span>(优购物)</span>
+
+					</div>
+					<div class="l">
+						<img class="tle" src="pictures/foot_dh.jpg" alt="">
+					</div>
+				</div>
+			</div>
+
+			<div class="footer_bottom">
+				<p>
+					<a href="http://localhost:8080/myajax/youpinhui/index.html">首页</a>|
+					<a href="javascript:;">关于优品惠</a>|
+					<a href="javascript:;">优购物</a>|
+					<a href="javascript:;">惠买集团</a>|
+					<a href="javascript:;">联系我们</a>|
+					<a href="javascript:;">招贤纳士</a>|
+					<a href="javascript:;">展商专区</a>|
+					<a href="javascript:;">供应商入口</a>|
+					<a href="javascript:;">友情链接</a>|
+					<a href="javascript:;">网址地图</a>|
+					<a href="javascript:;">资讯中心</a>|
+					<a href="javascript:;">评论</a>|
+					<a href="javascript:;">图片</a>
+				</p>
+				<h2>
+					优品惠（优购物）全球优品特卖网站 专属于千万女性的优品特卖网站,优品惠（优购物）电视购物官方网站,100%正品保证 支持货到付款.
+				</h2>
+				<h2>
+					Copyright©2007-2016 公司名称:北京优品惠网络科技有限公司 统一社会信用代码:91110302339739621C  ICP备案号:京ICP备15039150号-1 食品经营许可证编号:JY11131010332635
+				</h2>
+				<h2>
+					公司地址:北京市北京经济技术开发区同济南路19号7幢2层C区 联系方式:400-707-0707
+				</h2>			
+				<h2>
+					<a href="">京公网安备 11030102000055号</a>
+				</h2>
+			</div>
+		</div>
+	</div> -->
+<!-- ***************************************************************************************************** -->
+</body>
+</html>

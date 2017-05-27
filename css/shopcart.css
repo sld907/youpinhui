@@ -1,0 +1,210 @@
+/*-----------------------------shop_tltle---------------------------------------------*/
+.shop_tltle{
+	width: 100%;
+	height: 79px;
+}
+.shop_tltle .container{
+	height: 79px;
+	width: 1000px;
+	margin:0 auto;
+	margin-top: 20px;
+}
+.shop_tltle .container h1{
+	float: left;
+}
+.shop_tltle .container>p{
+	float: right;
+	height: 59px;
+	width: 420px;
+	background: url(../pictures/step.png);
+}
+
+/*-----------------------------shop_show--------------------------------------------*/
+.shop_show{
+	width: 100%;
+}
+.shop_show .container{
+	width: 1000px;
+	min-height: 303px;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+		.container h1{
+			font-size:18px;
+			color:#E4393C;
+		/*	border-bottom:solid 4px #E9E9E9;
+			padding-bottom: 10px;*/
+		}
+		.container .list-head{
+			width: 96%;
+			background: #F3F3F3;
+			height: 40px;
+			line-height: 40px;
+			padding:0 2% 0 2%;
+		}
+		.container .list-head div{
+			float:left;
+		}
+		.h1,.c1{width: 40%;}
+		.h2,.c2{width: 20%;}
+			
+
+
+
+
+
+		.container .pl{
+			width: 998px;
+			height: 94px;
+			border-bottom:solid 1px #C5C5C5;
+		}
+		.container .pl div{
+			float: left;
+			height: 94px;
+			line-height: 94px;
+			width: 249px;
+			background: #FFF4E8;
+		}
+		.container div .pic{
+			display: block;
+			float: left;
+			padding: 5px 0 0 20px;
+		}
+		.container .pname{
+			float: left;
+			padding-left: 20px;
+		}
+		.container div span img{
+			width:80px;
+		}
+		.pl a{
+			color:#666;
+			text-decoration: none;
+		}
+		.pl a:hover{
+			color:#ff0000;
+			text-decoration: underline;
+		}
+		.count{
+			width:80px;
+			height: 32px;
+			line-height: 32px;
+			border: solid 1px #CACBCB;
+			text-align: center;
+			display: block;
+			background:#fff;
+			margin-top: 28px;
+		}
+		.count .decrement{
+			display: block;
+			float: left;
+			width:17px;
+			border-right:solid 1px #CACBCB;
+			text-decoration: none;
+			color:#666666;
+		}
+		.count .add{
+			display: block;
+			float: left;
+			width:17px;
+			border-left:solid 1px #CACBCB;
+			text-decoration: none;
+			color:#666666;
+		}
+		.count p{
+			width:43px;
+			float: left;
+			color:#666666;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.shop_show .container .no_goods{
+	width: 730px;
+	height: 93px;
+	border: 1px solid #f5f5f5;
+	margin: 0 auto;
+	padding:110px 0 100px 268px;
+}
+.shop_show .container .no_goods i{
+	display: inline-block;
+	height: 101px;
+	width: 120px;
+	float: left;
+	background: url(../pictures/cart_empty.png);
+	margin: 0 15px 0px 0;
+}
+.shop_show .container .no_goods>h2{
+	height: 31px;
+	line-height: 31px;
+	font-size: 24px;
+	margin-top: 30px;
+	color: #999999;
+
+}
+.shop_show .container .no_goods>h2 .index_1{
+	color: #2767e4;
+	font-size: 12px;
+	margin-left: 10px;
+}
+.shop_show .container .no_goods>h2 .index_1:hover{
+	text-decoration:underline;
+}
+.shop_show .container .no_goods>p{
+	margin-top: 10px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	color: #999999;
+}
+.shop_show .container .no_goods>p .login_1{
+	display: inline-block;
+	text-align: center;
+	height: 22px;
+	width: 60px;
+	margin-left: 10px;
+	background: #ff504a;
+	border-radius: 2px;
+	color: #fff;
+}
+
+
+/*----------------------------footer_ad-------------------------------------------*/
+.footer_ad{
+	width: 100%;
+}
+.footer_ad .container{
+	width: 1000px;
+	margin:0 auto;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
+

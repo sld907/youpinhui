@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>优品惠调查问卷官方网站questionnaire</title>
+	<link rel="stylesheet" type="text/css" href="css/common.css" />
+	<link rel="stylesheet" type="text/css" href="css/questionnaire.css" />
+	<script src= "js/jquery-3.0.0.js"></script>
+	<script src= "js/jquery.cookie.js"></script>
+	<script src= "js/questionnaire.js"></script>
+</head>
+<body>
+<!-- ******************************************************************************************** -->
+	<script>
+		$(function(){
+			$("#menu").load("common_head.html");
+		});
+	</script>
+	<div id="menu">
+
+	</div>
+<!-- ******************************************************************************************** -->
+
+
+	<div class="vote_wrap">
+		<div class="container">
+			<form id="vote_wrap">
+				<!-- 标题 -->
+				<h2>优品惠网站改版问卷调查</h2>
+				<p>
+   				 	尊敬的用户：<br />
+    				&nbsp;&nbsp;&nbsp;&nbsp;欢迎您参加优品惠网站改版使用情况调查,并留下您的宝贵建议。感谢您对优品惠的支持！
+    			</p>
+    			<!-- ******************** -->
+    			<!-- 单选 -->
+				<dl>
+					<dt>Q1.您对新版网站的整体评价是？ （单项选择）</dt>
+					<dd>
+						<label for='o_75'>
+							<input type='radio' value='75' name='q-17' id='o_75'/>&nbsp;非常好
+						</label>
+					</dd>
+					<dd>
+						<label for='o_76'>
+							<input type='radio' value='76' name='q-17' id='o_76'/>&nbsp;一般
+						</label>
+					</dd>
+					<dd>
+						<label for='o_77'>
+							<input type='radio' value='77' name='q-17' id='o_77'/>&nbsp;不好
+						</label>
+					</dd>
+				</dl>
+				
+				<!-- 单选 -->
+				<dl>
+					<dt>
+						Q2.新版网站是否符合您的阅读习惯，是否能很快找到您所需的内容？ （单项选择）
+					</dt>
+					<dd>
+						<label for='o_78'>
+							<input type='radio' value='78' name='q-18' id='o_78'/>
+							&nbsp;是，我可以更方便快捷地找到
+						 </label>
+					</dd>
+					<dd>
+						<label for='o_79'>
+							<input type='radio' value='79' name='q-18' id='o_79'/>
+							&nbsp;一般，但我喜欢有新鲜感 
+						</label>
+					</dd>
+					<dd>
+						<label for='o_80'>
+							<input type='radio' value='80' name='q-18' id='o_80'/>
+							&nbsp;不，我很难适应网站改版
+						</label>
+					</dd>
+				</dl>
+				<!-- 多选 -->
+				<dl>
+					<dt>Q3.在网站内容上您更关注哪些方面？ （多项选择）</dt>
+					<dd>
+						<label for='o_104'>
+							<input type='checkbox' value='104' name='q-19' id='o_104'/>
+							&nbsp;今日视频栏目
+						</label>
+					</dd>
+					<dd>
+						<label for='o_81'>
+							<input type='checkbox' value='81' name='q-19' id='o_81'/>
+							&nbsp;品牌特卖
+						</label>
+					</dd>
+					<dd>
+						<label for='o_82'>
+							<input type='checkbox' value='82' name='q-19' id='o_82'/>
+							&nbsp;查找更多促销信息
+						</label>
+					</dd>
+					<dd>
+						<label for='o_83'>
+							<input type='checkbox' value='83' name='q-19' id='o_83'/>
+							&nbsp;查看订单和物流
+						</label>
+					</dd>
+					<dd>
+						<label for='o_84'>
+							<input type='checkbox' value='84' name='q-19' id='o_84'/>
+							&nbsp;随便逛逛
+						</label>
+					</dd>
+					<dd>
+						<label for='o_85'>
+							<input type='checkbox' value='85' name='q-19' id='o_85'/>&nbsp;其他&nbsp;
+							<input type='text'  name='qt-85' id='qt-85' />
+						</label>
+					</dd>
+				</dl>
+				
+				<dl>
+					<dt>Q4.新版网站您更喜欢哪些栏目？ （多项选择）</dt>
+					<dd>
+						<label for='o_293'>
+							<input type='checkbox' value='293' name='q-20' id='o_293'/>
+							&nbsp;今日视频
+						</label>
+					</dd>
+					<dd>
+						<label for='o_86'>
+							<input type='checkbox' value='86' name='q-20' id='o_86'/>
+							&nbsp;TV热播商品
+						</label>
+					</dd>
+					<dd>
+						<label for='o_87'>
+							<input type='checkbox' value='87' name='q-20' id='o_87'/>
+							&nbsp;品牌特卖
+						</label>
+					</dd>
+					<dd>
+						<label for='o_88'>
+							<input type='checkbox' value='88' name='q-20' id='o_88'/>
+							&nbsp;其他&nbsp;
+							<input type='text' onkeyup=) name='qt-88' id='qt-88' />
+						</label>
+					</dd>
+				</dl>
+			
+				<dl>
+					<dt>Q5.您认为新版网站改进显著的地方有？ （多项选择）</dt>
+					<dd>
+						<label for='o_89'>
+							<input type='checkbox' value='89' name='q-21' id='o_89'/>
+							&nbsp;浏览起来更加顺畅，加载速度快
+						</label>
+					</dd>
+					<dd>
+						<label for='o_90'>
+							<input type='checkbox' value='90' name='q-21' id='o_90'/>
+							&nbsp;可以很快找到想要查找内容，非常清晰
+						</label>
+					</dd>
+					<dd>
+						<label for='o_91'>
+							<input type='checkbox' value='91' name='q-21' id='o_91'/>
+							&nbsp;页面排版整齐，配色更漂亮
+						 </label>
+					 </dd>
+					<dd>
+						<label for='o_92'>
+							<input type='checkbox' value='92' name='q-21' id='o_92'/>
+							&nbsp;内容丰富，布局合理
+						</label>
+					</dd>
+					<dd>
+						<label for='o_93'>
+							<input type='checkbox' value='93' name='q-21' id='o_93'/>
+							&nbsp;其他&nbsp;
+							<input type='text' id='qt-93' />
+						</label>
+					</dd>
+				</dl>
+				
+				<dl>
+					<dt>Q6.您一般如何浏览网站，进入需要的栏目/内容？ （多项选择）</dt>
+					<dd>
+						<label for='o_94'>
+							<input type='checkbox' value='94' name='q-22' id='o_94'/>
+							&nbsp;我会从导航直接进入栏目 
+						</label>
+					</dd>
+					<dd>
+						<label for='o_95'>
+							<input type='checkbox' value='95' name='q-22' id='o_95'/>
+							&nbsp;我直接用搜索功能找我想要的 
+						</label>
+					</dd>
+					<dd>
+						<label for='o_96'>
+							<input type='checkbox' value='96' name='q-22' id='o_96'/>
+							&nbsp;我只看首屏，往下拉页面太麻烦
+						 </label>
+					</dd>
+					<dd>
+						<label for='o_97'>
+							<input type='checkbox' value='97' name='q-22' id='o_97'/>
+							&nbsp;我会从头到尾浏览首页，找到有用的就点进
+						</label>
+					</dd>
+				</dl>
+				
+				<dl>
+					<dt>Q7.您希望网站以后更侧重哪方面？ （多项选择）</dt>
+					<dd>
+						<label for='o_98'>
+							<input type='checkbox' value='98' name='q-23' id='o_98'/>
+							&nbsp;加大商品推荐量
+						</label>
+					</dd>
+					<dd>
+						<label for='o_99'>
+							<input type='checkbox' value='99' name='q-23' id='o_99'/>
+							&nbsp;呈现更多的精品栏目
+						</label>
+					</dd>
+					<dd>
+						<label for='o_100'>
+							<input type='checkbox' value='100' name='q-23' id='o_100'/>
+							&nbsp;让我使用起来更加方便轻松
+						</label>
+					</dd>
+					<dd>
+						<label for='o_101'>
+							<input type='checkbox' value='101' name='q-23' id='o_101'/>
+							&nbsp;增加社区、论坛等互动功能
+						</label>
+					</dd>
+					<dd>
+						<label for='o_102'>
+							<input type='checkbox' value='102' name='q-23' id='o_102'/>
+							&nbsp;其他&nbsp;
+							<input type='text' id='qt-102' />
+						</label>
+					</dd>
+				</dl>
+				<dl>			
+					<dt>Q8.如果您还有更多的意见和建议，请在以下输入框内提出：</dt>
+					<textarea name="q-24" style="width:848px;margin:10px 0;" rows="10" cols="50">	
+					</textarea>
+				</dl>
+				<a id="submit" href="index.html"></a>
+
+
+
+
+
+			</form>
+			
+
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- *************************************footer****************************************** -->
+	<script>
+		$(function(){
+			$("#foot").load("common_footer.html");
+		});
+	</script>
+	<div id="foot">
+		
+	</div>
+<!-- ******************************************************************************* -->
+</body>
+</html>

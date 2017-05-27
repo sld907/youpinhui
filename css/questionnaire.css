@@ -1,0 +1,53 @@
+.vote_wrap{
+	width: 100%;
+}
+.vote_wrap .container{
+	font-family: "Microsoft YaHei";
+	width: 878px;
+	padding: 70px 35px;
+	height: 1755px;
+	border: 1px solid #e4e4e4;
+	margin:5px auto;
+}
+#vote_wrap>h2{
+	font-family: "Microsoft YaHei";
+	font-size: 28px;
+	height: 37px;
+	line-height: 37px;
+	font-weight: 600;
+	text-align: center;
+	color: #2f2f2f;
+}
+#vote_wrap>p{
+	font-size: 14px;
+	line-height: 30px;
+	margin-bottom: 40px;
+	color: #656565;
+}
+#vote_wrap>dl{
+	padding: 15px;
+	border-bottom: 1px dashed #b1b1b1;
+}
+#vote_wrap>dl dt{
+	height: 30px;
+	line-height: 30px;
+	color: #ea0102;
+	font-weight: 600;
+}
+#vote_wrap>dl dd{
+	height: 30px;
+	line-height: 30px;
+}
+#submit{
+	display: inline-block;
+	height: 46px;
+	width: 170px;
+	margin: 5px 354px;
+
+	background: url(../pictures/submit.gif);
+}
+
+
+
+
+
